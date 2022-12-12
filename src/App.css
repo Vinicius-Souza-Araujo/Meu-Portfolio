@@ -1,0 +1,412 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Bebas Neue', cursiva;
+
+}
+
+.box{
+  width: 100%;
+  height: 100%;
+  background-color: #1C1A2F;
+}
+
+
+.banner{
+ width: 100%;
+ height: 95vh;
+background-image: url(../public/assets/banner.jpg);
+background-repeat: no-repeat;
+background-size:100% 650px;
+
+
+}
+
+.info_inicial{
+  width: 100%;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  
+  justify-content: center;
+  display: flex;
+}
+
+.img-Vinicius{
+  width: 250px;
+  height: 250px;
+  border-radius: 280px;
+  
+  
+}
+
+
+.titulo-info_inicial{
+  color: #F5F5F5;
+  font-weight: normal;
+}
+
+.subtitulo-info_inicial{
+  color: #C8EE43;
+font-weight: normal;
+}
+
+.sobreMim{
+  margin-top: 50px;
+  padding: 80px;
+  display: flex;
+ 
+}
+
+.img-programador{
+  width: 400px;
+  height: 400px;
+  border-radius: 25px;
+  position: relative;
+}
+
+.titulo-sobreMim{
+  color: #C8EE43;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.subtitulo-sobreMim{
+  color: #F5F5F5;
+  font-weight: normal;
+  position: relative;
+ 
+}
+
+.subtitulo-sobreMim::after{
+  color: #C8EE43;
+  content: " ";
+  width: 30px;
+  height: 4px;
+  background-image: linear-gradient(45deg, #C8EE43, #C8EE43);
+  position: absolute;
+  top: 28px;
+  left: 0;
+}
+
+.sobreMim-texto{
+  margin-right: 20px;
+}
+
+.sobreMim-paragrafo{
+  margin-top: 10px;
+  color: #F5F5F5;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+
+}
+
+.contato{
+  width: 200px;
+  height: 50px;
+  border: solid #C8EE43 1px;
+  border-radius: 10px;
+  margin-top: 20px;
+  position: relative;
+ 
+}
+
+.titulo-contato{
+  color: #C8EE43;
+  font-weight: normal;
+  margin-left: 41px;
+  position: absolute;
+  top:-14px;
+  background-color: #1C1A2F;
+  font-size: 20px;
+  
+}
+
+.box-formasContato{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.formasContato{
+  margin-top: 12px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.botao-cv{
+  border: none;
+  margin-top: 10px;
+  background-color: #C8EE43;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: #4f5e1a;
+  text-decoration: none;
+  
+}
+
+.botao-cv:active{
+
+  background-color: #000000;
+  color: #F5F5F5;
+ 
+  
+  
+
+}
+
+.box-titulo-minhasSkills{
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
+
+.titulo-minhasSkills{
+  color: #1C1A2F;
+  font-weight: normal;
+  font-size: 25px;
+  position: relative;
+  
+}
+
+.titulo-minhasSkills::after{
+  color: #1C1A2F;
+  content: " ";
+  width: 30px;
+  height: 4px;
+  background-image: linear-gradient(45deg, #1C1A2F, #1C1A2F);
+  position: absolute;
+  top: 28px;
+  left: 0;
+}
+
+.minhasSkills{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: #F5F5F5;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box-grafico{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 400px;
+}
+
+
+.tecnologias{
+    
+    display: flex;
+    width: 100%;
+    height: 1050px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+
+
+.titulo-tecnologias{
+  color: #F5F5F5;
+  font-size: 25px;
+  
+}
+
+
+.meusProjetos{
+  width: 100%;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+.box-titulo-meusProjetos{
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.titulo-meusProjetos{
+  font-size: 25px;
+  
+}
+
+footer{
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+
+
+.paragrafo-footer{
+  color: #F5F5F5;
+  font-family: 'Inter', sans-serif;
+}
+
+/* CSS para Tablet */
+@media (max-width: 900px) {
+  .banner{
+    background-size:100% 650px;
+    height: 70vh;
+    }
+
+
+    .info_inicial{
+      width: 100%;
+      height: 70vh;
+      
+    }
+
+    .sobreMim{
+      margin-top: 0px;
+      padding-top: 50px;
+      padding-left: 80px;
+      padding-right: 40px;
+      padding-bottom: 80px;
+      display: flex;
+     
+    }
+}
+
+/* CSS para Celular */
+@media (max-width: 700px) {
+  .banner{
+   background-size:100% 250px;
+   height: 45vh;
+   }
+
+
+   .info_inicial{
+    justify-content:flex-start;
+    display: flex;
+    
+  }
+
+  .img-Vinicius{
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 280px;
+    display: block;
+    
+  }
+
+  .titulo{
+    font-size: 22px;
+  }
+  
+  .subtitulo{
+    font-size: 20px;
+  }
+
+  .botao-cv{
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 18px;
+  }
+
+  .sobreMim{
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .box-contato{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+  }
+  
+  .img-programador{
+    width: 140px;
+    height: 140px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .box-imgDeveloper{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .sobreMim-texto{
+    margin-left: 20px;
+  }
+
+  .minhasSkills{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    background-color: #F5F5F5;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .box-titulo-minhasSkills{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+  }
+  
+  .titulo-minhasSkills{
+    color: #1C1A2F;
+    font-weight: normal;
+    font-size: 25px;
+    position: relative;
+    
+  }
+  
+  .box-grafico{
+    width: 90%;
+  }
+
+}
+
+/* CSS para Celular Pequeno */
+@media (max-width: 350px) {
+  .banner{
+    background-size:100% 250px;
+    height: 70vh;
+    }
+
+    .titulo-minhasSkills{
+     margin-top: 20px;
+      
+    }
+}
+
