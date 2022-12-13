@@ -1,4 +1,4 @@
-# Meu Portifolio
+# Meu Portfolio
 ### Acesse através do link: https://vinicius-souza.netlify.app/
 
 ## Tecnologias utilizadas:
