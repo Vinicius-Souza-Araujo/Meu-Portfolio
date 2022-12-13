@@ -2,7 +2,10 @@
 ### Acesse através do link: https://vinicius-souza.netlify.app/
 
 ## Tecnologias utilizadas:
- - React Native.
+ - React Native;
+ - CSS;
+ - HTML;
+ - JavaScript.
 
 ## Bibliotecas utilizadas:
  - aos : 3.0.0-beta.6;
