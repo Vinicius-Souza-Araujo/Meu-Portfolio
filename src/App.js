@@ -79,7 +79,7 @@ function App() {
                   <h2 className='titulo-contato'>Entre em contato</h2>
                   <div className='box-formasContato'>
                     <a  href='https://www.linkedin.com/in/vinicius-souza-064531210/'><img className='formasContato'  src='../assets/Linkedin.png' alt='icon-linkedin' title='icon-linkedin'/></a>
-                    <a  href='mailto:vinicius0207souza@gmail.com'><img className='formasContato'  src='../assets/Gmail.png'/  alt='icon-gmail' title='icon-gmail'></a>
+                    <a  href='mailto:vinicius0207souza@gmail.com'><img className='formasContato'  src='../assets/Gmail.png'/  alt='icon-gmail' title='icon-gmail'/></a>
                     <a  href='https://github.com/Vinicius-Souza-Araujo'><img className='formasContato'  src='../assets/GitHub.png'  alt='icon-github' title='icon-github'/></a>
                   </div>
                 </div>
