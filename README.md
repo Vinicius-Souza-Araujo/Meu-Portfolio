@@ -1,5 +1,5 @@
 # Meu Portfólio👨🏽‍💼
-### Acesse através do link: https://vinicius-souza.netlify.app/
+### Acesse através do link: https://vinicius-souza-araujo-portfolio.netlify.app/
 
 ## Tecnologias utilizadas:
  - React Native;
