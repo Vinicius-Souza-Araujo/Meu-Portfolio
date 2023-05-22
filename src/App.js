@@ -78,9 +78,9 @@ function App() {
                 <div className='contato'>
                   <h2 className='titulo-contato'>Entre em contato</h2>
                   <div className='box-formasContato'>
-                    <a  href='https://www.linkedin.com/in/vinicius-souza-064531210/'><img className='formasContato'  src='../assets/Linkedin.png'/></a>
-                    <a  href='mailto:vinicius0207souza@gmail.com'><img className='formasContato'  src='../assets/Gmail.png'/></a>
-                    <a  href='https://github.com/Vinicius-Souza-Araujo'><img className='formasContato'  src='../assets/GitHub.png'/></a>
+                    <a  href='https://www.linkedin.com/in/vinicius-souza-064531210/'><img className='formasContato'  src='../assets/Linkedin.png' alt='icon-linkedin' title='icon-linkedin'/></a>
+                    <a  href='mailto:vinicius0207souza@gmail.com'><img className='formasContato'  src='../assets/Gmail.png'/  alt='icon-gmail' title='icon-gmail'></a>
+                    <a  href='https://github.com/Vinicius-Souza-Araujo'><img className='formasContato'  src='../assets/GitHub.png'  alt='icon-github' title='icon-github'/></a>
                   </div>
                 </div>
             </div>
@@ -108,15 +108,15 @@ function App() {
                 <h1 className='titulo-tecnologias'>Tecnologias</h1>
             </div>
                 <div className='cards'>
-                    <CardTecnologia titulo='HTML5' caminhoImg='../assets/html5.png' />
-                    <CardTecnologia titulo='CSS3' caminhoImg='../assets/css3.png' />
-                    <CardTecnologia titulo='JavaScript' caminhoImg='../assets/javaScript.png' />
-                    <CardTecnologia titulo='Bootstrap' caminhoImg='../assets/bootstrap.png' />
-                    <CardTecnologia titulo='NodeJS' caminhoImg='../assets/node.png' />
-                    <CardTecnologia titulo='ReactJS' caminhoImg='../assets/reactJS.png' />
-                    <CardTecnologia titulo='React Native' caminhoImg='../assets/reactNative.png' />
-                    <CardTecnologia titulo='Java' caminhoImg='../assets/java.png' />
-                    <CardTecnologia titulo='MySQL' caminhoImg='../assets/mysql.png' />
+                    <CardTecnologia titulo='HTML5' caminhoImg='../assets/html5.png' alt='icon-html5' title='icon-html5'  />
+                    <CardTecnologia titulo='CSS3' caminhoImg='../assets/css3.png' alt='icon-css3' title='icon-css3'/>
+                    <CardTecnologia titulo='JavaScript' caminhoImg='../assets/javaScript.png' alt='icon-javaScript' title='icon-javaScript' />
+                    <CardTecnologia titulo='Bootstrap' caminhoImg='../assets/bootstrap.png' alt='icon-bootstrap' title='icon-bootstrap' />
+                    <CardTecnologia titulo='NodeJS' caminhoImg='../assets/node.png' alt='icon-node' title='icon-node' />
+                    <CardTecnologia titulo='ReactJS' caminhoImg='../assets/reactJS.png' alt='icon-reactJS' title='icon-reactJS' />
+                    <CardTecnologia titulo='React Native' caminhoImg='../assets/reactNative.png' alt='icon-reactNative' title='icon-reactNative'/>
+                    <CardTecnologia titulo='Java' caminhoImg='../assets/java.png' alt='icon-java' title='icon-java'/>
+                    <CardTecnologia titulo='MySQL' caminhoImg='../assets/mysql.png' alt='icon-mysql' title='icon-mysql'/>
                 </div>
             
         </div>
