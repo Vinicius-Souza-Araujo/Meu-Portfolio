@@ -70,7 +70,7 @@ function App() {
             <h1 className='titulo-sobreMim'>Descobrir</h1>
             <h2 className='subtitulo-sobreMim'>Sobre mim</h2>
             <p className='sobreMim-paragrafo ' >Meu nome é Vinicius Souza Araujo, tenho 19 anos, moro em Embu das Artes, região Metropolitana de São Paulo. </p>
-            <p className='sobreMim-paragrafo '>Sou formado no Técnico em Desenvolvimento de Sistemas na escola SENAI Suíço-Brasileira Paulo Ernesto Tolle e atuamente estou na faculdade da instituição Centro Universitário SENAC Santo Amaro estando atualmente no 2° semestre de Análise e Desenvolvimento de Sistemas.</p>
+            <p className='sobreMim-paragrafo '>Sou formado no Técnico em Desenvolvimento de Sistemas na escola SENAI Suíço-Brasileira Paulo Ernesto Tolle e atuamente estou na faculdade da instituição Centro Universitário SENAC Santo Amaro estando atualmente no 3° semestre de Análise e Desenvolvimento de Sistemas.</p>
             <p className='sobreMim-paragrafo '>Neste momento, busco uma efetivação em um estágio/júnior nas áreas de Front-End e Back-End.</p>
 
 
